@@ -9,15 +9,20 @@ application targets .NET 10 and contains a console application and xUnit tests.
 
 ## Run the application
 
+Open a terminal in the project root folder and run:
+
 ```bash
 dotnet run --project src/BookingSystem
 ```
 
+You can also open BookingSystemExam.slnx in Visual Studio and start the application with Ctrl + F5.
+
 ## Run the tests
+
+Open a terminal in the project root folder and run:
 
 ```bash
 dotnet test
 ```
 
-Read the separate assignment instructions before starting. The existing code
-is incomplete and contains intentional defects.
+You can also run the tests in Visual Studio using Test Explorer.

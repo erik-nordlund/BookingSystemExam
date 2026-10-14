@@ -65,7 +65,7 @@ public class BookingService(IBookingRepository repository)
             return BookingResult.Failure("The selected room does not exist.");
         }
 
-        if (booking.StartTime == booking.EndTime)
+        if (booking.StartTime >= booking.EndTime)
         {
             return BookingResult.Failure("The start time must be earlier than the end time.");
         }
